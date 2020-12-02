@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.topnavbarholder
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: -2px 0px 6px 1px rgba(0,0,0,0.31);
+    
+}
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message
+{
+    display: flex;
+}
+
+.text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  color: pink;
+}
+
+
+
+.message div
+{
+    margin-left: 10px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-holder
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 3%;
+  box-shadow: -2px 0px 6px 1px rgba(0,0,0,0.31);
+}
+.footer div i
+{
+    font-size: 100%;
+}
